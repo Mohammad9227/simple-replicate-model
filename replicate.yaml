@@ -1,0 +1,10 @@
+schema_version: "1.0"
+name: "simple-replicate-model"
+description: "A simple model that reverses a string."
+input_schema:
+  input_text:
+    type: string
+    description: "Text to be reversed"
+output_schema:
+  type: string
+predictor: "predict.py"
